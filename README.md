@@ -5,10 +5,10 @@ Un appareil de de mesure de la pression étanche composé de
 - Un arduinon nano
 - Un bouton poussoir + intérupteur marche/arrêt
 
-![capteur de pression dans un liquide 33508](./details/33508.png)
+![capteur de pression dans un liquide 33508](/details/img_33508.png)
 ## Schémas
-![carte principale](./details/carte_principale.png)
-![carte capteur](./details/carte_capteur.png)
+![carte principale](/details/img_carte_principale.png)
+![carte capteur](/details/img_carte_capteur.png)
 
 ## Examples
 ### Arduino / C++
