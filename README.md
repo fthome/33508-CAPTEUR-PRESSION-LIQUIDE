@@ -43,7 +43,7 @@ L’accès au capteur se fera par le bus I2C à l’adresse suivante : 0x5c.
 
 Exemple de lignes de code donnant accès aux données du capteur : 
 ```
-#include "LPS35HW.h"
+#include "Lps35hw.h"
 Lps35hw capteur(0x5c) ;
 fl oat pression = capteur.get_pressure();
 fl oat temperature = capteur.get_temperature();
