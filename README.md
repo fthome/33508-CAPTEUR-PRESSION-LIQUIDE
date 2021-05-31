@@ -18,7 +18,7 @@ Le capteur P-T est connecté à une carte Arduino™ programmée pour exploiter 
 
 # RESSOURCES À TÉLÉCHARGER :
 
-Logiciel d'acquisition : [PIANODE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2Fpianode.zip)
+Logiciel d'acquisition : [PIANODE](https://github.com/pierron-asco-celda/InterfacePIANODE_USB)
 
 Ressource : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2F33508.pdf)
 
