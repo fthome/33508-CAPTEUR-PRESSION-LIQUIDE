@@ -33,16 +33,7 @@ Ressource : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&
 # Exemples :
 ### Arduino / C++
 ```
-
-
-
-/*******************************************************
-
-********************************************************/
-
-// {
-
-#include <Lps35hw.h>
+#include "Lps35hw.h"
 #include <LiquidCrystal.h>
 
 Lps35hw capteur =  Lps35hw(0x5C);
