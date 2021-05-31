@@ -27,9 +27,34 @@ Ressource utilisation : [NOTICE](https://www.pierron.fr/fileuploader/download/do
 # Schémas :
 ![carte principale](/details/img_carte_principale.png)
 ![carte capteur](/details/img_carte_capteur.png)
+![carte board](/details/img_carte_33508.png)
 
 <br/>
 
+# Complément sur la programmation :
+L’accès au capteur se fera par le bus I2C à l’adresse suivante : 0x5c.
+– la ligne SDA (données) est connectée à la broche A4 de la carte Arduino™;
+– la ligne SCL (horloge) est connectée à la broche A5 de la carte Arduino™.
+
+Exemple de lignes de code donnant accès aux données du capteur : 
+```
+#include "LPS35HW.h"
+Lps35hw capteur(0x5c) ;
+fl oat pression = capteur.get_pressure();
+fl oat temperature = capteur.get_temperature();
+```
+
+Pour utiliser l’affi cheur en parallèle, il sera nécessaire d’utiliser la bibliothèque LiquidCrystal
+disponible dans l’IDE Arduino™ (dans la rubrique Gestionnaire de bibliothèque, rechercher 
+« LiquidCrystal » et cliquer sur Installer)
+Les lignes de code à intégrer au programme seront les suivantes :
+```
+#include <LiquidCrystal.h>
+const int rs = 3, en = 4, d4 = 5, d5 = 6, d6 = 7, d7 = 8;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+```
+
+<br/>
 # Exemples :
 ### Arduino / C++
 ```
