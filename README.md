@@ -30,6 +30,7 @@ Ressource utilisation : [NOTICE](https://www.pierron.fr/fileuploader/download/do
 <br/>
 
 # Schémas :
+![4h33508](/details/4h33508.png)
 ![carte principale](/details/img_carte_principale.png)
 ![carte capteur](/details/img_carte_capteur.png)
 ![carte board](/details/img_carte_33508.png)
