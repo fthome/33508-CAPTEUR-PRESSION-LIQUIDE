@@ -45,8 +45,8 @@ Exemple de lignes de code donnant accès aux données du capteur :
 ```
 #include "Lps35hw.h"
 Lps35hw capteur(0x5c) ;
-fl oat pression = capteur.get_pressure();
-fl oat temperature = capteur.get_temperature();
+float pression = capteur.get_pressure();
+float temperature = capteur.get_temperature();
 ```
 
 Pour utiliser l’affi cheur en parallèle, il sera nécessaire d’utiliser la bibliothèque LiquidCrystal
