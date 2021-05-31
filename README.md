@@ -6,14 +6,13 @@ Cet appareil est particulièrement conçu pour mesurer et étudier la pression a
 P↓A|- P↓B| = ρ.g.h.
 Il comprend une sonde dont le capteur plonge dans une grande éprouvette remplie de liquide.
 Cette sonde est constituée par :
-- une jauge millimétrée ;
-- un capteur de pression "LPS35HW" et de température (P-T), logé à l'extrémité de la sonde ;
-- un afficheur numérique "1x8 HD44780" qui indique, au choix, soit la pression absolue P (en hPa) soit la température T (en °C) de l'environnement dans lequel se trouve le capteur ;
+
+![carte principale](/details/h33508.png)
 
 Ainsi, pour retrouver le principe de l'hydrostatique, il suffit de plonger le capteur dans l'éprouvette remplie d'eau. En modifiant la position du capteur dans l'eau, on mesure directement la pression absolue P en fonction de h. Il reste alors à exploiter les mesures et la courbe P = f(h).
 Le capteur P-T est connecté à une carte Arduino™ programmée pour exploiter les données du capteur et les afficher sur l'écran. Elle offre la possibilité aux professeurs qui le souhaitent, d'initier les élèves à la programmation : à cet effet, un port mini-USB externe est disponible sur la carte. Une fois qu'on a conçu le programme pour piloter l'ensemble carte-capteur-afficheur, il suffit de le téléverser sur la carte.
 
-![carte principale](/details/h33508.png)
+<br/>
 
 # RESSOURCES À TÉLÉCHARGER :
 
@@ -21,10 +20,13 @@ Logiciel d'acquisition : [PIANODE](https://www.pierron.fr/fileuploader/download/
 
 Ressource : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2F33508.pdf)
 
+<br/>
 
 ## Schémas
 ![carte principale](/details/img_carte_principale.png)
 ![carte capteur](/details/img_carte_capteur.png)
+
+<br/>
 
 ## Examples
 ### Arduino / C++
