@@ -24,6 +24,5 @@ public:
 private:
 	int _adr;
 };
-//test
 
 #endif
