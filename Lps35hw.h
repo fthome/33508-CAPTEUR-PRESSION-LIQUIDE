@@ -18,16 +18,10 @@ class Lps35hw
   public :
     float get_pressure();
 	float get_temperature();
-	 void init();	
+	 void init();
 	Lps35hw(int adr);
   private :
-
-   
 	int _adr;
-
-	   
-
-	
 };
 
 #endif
