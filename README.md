@@ -33,6 +33,8 @@ Ressource : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&
 # Exemples :
 ### Arduino / C++
 ```
+// Baud rate 9600
+
 #include "Lps35hw.h"
 #include <LiquidCrystal.h>
 
