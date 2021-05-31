@@ -12,6 +12,8 @@ Cette sonde est constituée par :
 Ainsi, pour retrouver le principe de l'hydrostatique, il suffit de plonger le capteur dans l'éprouvette remplie d'eau. En modifiant la position du capteur dans l'eau, on mesure directement la pression absolue P en fonction de h. Il reste alors à exploiter les mesures et la courbe P = f(h).
 Le capteur P-T est connecté à une carte Arduino™ programmée pour exploiter les données du capteur et les afficher sur l'écran. Elle offre la possibilité aux professeurs qui le souhaitent, d'initier les élèves à la programmation : à cet effet, un port mini-USB externe est disponible sur la carte. Une fois qu'on a conçu le programme pour piloter l'ensemble carte-capteur-afficheur, il suffit de le téléverser sur la carte.
 
+Logiciel d'acquisition "Pianode":
+
 ![2h33508](/details/2h33508.png)
 
 <br/>
