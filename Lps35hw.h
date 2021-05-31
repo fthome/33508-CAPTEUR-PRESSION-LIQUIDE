@@ -15,13 +15,15 @@ const int CTRL_REG2 = 0x11;
 
 class Lps35hw
 {
-  public :
-    float get_pressure();
+public:
+	float get_pressure();
 	float get_temperature();
-	 void init();
+	void init();
 	Lps35hw(int adr);
-  private :
+
+private:
 	int _adr;
 };
+//test
 
 #endif
