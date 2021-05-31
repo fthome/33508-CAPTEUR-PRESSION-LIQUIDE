@@ -9,7 +9,7 @@ Un appareil de de mesure de la pression étanche composé de
 
 Le produit est utilisable avec le programme d'acquisition [PIANODE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2Fpianode.zip)
 
-![capteur de pression dans un liquide 33508](/details/img_33508.png)
+![capteur de pression dans un liquide 33508](/details/Test.png)
 ## Schémas
 ![carte principale](/details/img_carte_principale.png)
 ![carte capteur](/details/img_carte_capteur.png)
