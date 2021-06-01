@@ -8,7 +8,7 @@ P↓A|- P↓B| = ρ.g.h.
 ![3h33508](/details/3h33508.png)
 
 Il comprend une sonde dont le capteur plonge dans une grande éprouvette remplie de liquide.
-Cette sonde est constituée par :
+Cette sonde est constituée par : 
 
 ![h33508](/details/h33508.png)
 
