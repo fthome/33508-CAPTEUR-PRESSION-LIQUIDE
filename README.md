@@ -5,19 +5,19 @@ CAPTEUR DE PRESSION DANS UN LIQUIDE [33508](https://www.pierron.fr/capteur-de-pr
 Cet appareil est particulièrement conçu pour mesurer et étudier la pression absolue P dans un liquide, en fonction de la hauteur h de liquide qui sépare le capteur de pression de la surface du liquide. On retrouvera ainsi le principe de l'hydrostatique :
 P↓A|- P↓B| = ρ.g.h.
 
-![3h33508](/details/3h33508.png)
+![3h33508](/img/3h33508.png)
 
 Il comprend une sonde dont le capteur plonge dans une grande éprouvette remplie de liquide.
 Cette sonde est constituée par : 
 
-![h33508](/details/h33508.png)
+![h33508](/img/h33508.png)
 
 Ainsi, pour retrouver le principe de l'hydrostatique, il suffit de plonger le capteur dans l'éprouvette remplie d'eau. En modifiant la position du capteur dans l'eau, on mesure directement la pression absolue P en fonction de h. Il reste alors à exploiter les mesures et la courbe P = f(h).
 Le capteur P-T est connecté à une carte Arduino™ programmée pour exploiter les données du capteur et les afficher sur l'écran. Elle offre la possibilité aux professeurs qui le souhaitent, d'initier les élèves à la programmation : à cet effet, un port mini-USB externe est disponible sur la carte. Une fois qu'on a conçu le programme pour piloter l'ensemble carte-capteur-afficheur, il suffit de le téléverser sur la carte.
 
 Logiciel d'acquisition "Pianode":
 
-![2h33508](/details/2h33508.png)
+![2h33508](/img/2h33508.png)
 
 <br/>
 
@@ -30,10 +30,10 @@ Ressource utilisation : [NOTICE](https://www.pierron.fr/fileuploader/download/do
 <br/>
 
 # Schémas :
-![4h33508](/details/4h33508.png)
-![carte principale](/details/img_carte_principale.png)
-![carte capteur](/details/img_carte_capteur.png)
-![carte board](/details/img_carte_33508.png)
+![4h33508](/img/4h33508.png)
+![carte principale](/img/img_carte_principale.png)
+![carte capteur](/img/img_carte_capteur.png)
+![carte board](/img/img_carte_33508.png)
 
 <br/>
 
