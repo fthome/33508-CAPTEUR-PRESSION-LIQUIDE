@@ -5,21 +5,19 @@ CAPTEUR DE PRESSION DANS UN LIQUIDE [33508](https://www.pierron.fr/capteur-de-pr
 Cet appareil est particulièrement conçu pour mesurer et étudier la pression absolue P dans un liquide, en fonction de la hauteur h de liquide qui sépare le capteur de pression de la surface du liquide. On retrouvera ainsi le principe de l'hydrostatique :
 P↓A|- P↓B| = ρ.g.h.
 
-![3h33508](/img/3h33508.png)
+![E1-33508](/img/E1-33508.png)
 
 Il comprend une sonde dont le capteur plonge dans une grande éprouvette remplie de liquide.
 Cette sonde est constituée par : 
 
-![h33508](/img/h33508.png)
+![E2-33508](/img/E2-33508.png)
 
-Ainsi, pour retrouver le principe de l'hydrostatique, il suffit de plonger le capteur dans l'éprouvette remplie d'eau. En modifiant la position du capteur dans l'eau, on mesure directement la pression absolue P en fonction de h. Il reste alors à exploiter les mesures et la courbe P = f(h).
+Ainsi, pour retrouver le principe de l'hydrostatique, il suffit de plonger le capteur dans l'éprouvette remplie d'eau. En modifiant la position du capteur dans l'eau, on mesure directement la pression absolue P en fonction d’h. Il reste alors à exploiter les mesures et la courbe P = f(h).
 Le capteur P-T est connecté à une carte Arduino™ programmée pour exploiter les données du capteur et les afficher sur l'écran. Elle offre la possibilité aux professeurs qui le souhaitent, d'initier les élèves à la programmation : à cet effet, un port mini-USB externe est disponible sur la carte. Une fois qu'on a conçu le programme pour piloter l'ensemble carte-capteur-afficheur, il suffit de le téléverser sur la carte.
 
 Logiciel d'acquisition "Pianode":
 
-![2h33508](/img/2h33508.png)
-
-<br/>
+![E3-33508](/img/E3-33508.png)
 
 # RESSOURCES À TÉLÉCHARGER :
 
@@ -27,19 +25,15 @@ Logiciel d'acquisition : [PIANODE](https://github.com/pierron-asco-celda/Interfa
 
 Ressource utilisation : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2F33508.pdf)
 
-<br/>
-
 # Schémas :
-![4h33508](/img/4h33508.png)
-![carte principale](/img/img_carte_principale.png)
-![carte capteur](/img/img_carte_capteur.png)
-![carte board](/img/img_carte_33508.png)
-
-<br/>
+![E4-33508](/img/E4-33508.png)
+![SCH-P-33508](/img/SCH-P-33508.png)
+![SCH-C-33508](/img/SCH-C-33508.png)
+![BRD-33508](/img/BRD-33508.png)
 
 # Complément sur la programmation :
 L’accès au capteur se fera par le bus I2C à l’adresse suivante : 0x5c.
-– la ligne SDA (données) est connectée à la broche A4 de la carte Arduino™;
+– La ligne SDA (données) est connectée à la broche A4 de la carte Arduino™;
 – la ligne SCL (horloge) est connectée à la broche A5 de la carte Arduino™.
 
 Exemple de lignes de code donnant accès aux données du capteur : 
@@ -51,7 +45,7 @@ float temperature = capteur.get_temperature();
 ```
 
 Pour utiliser l’affi cheur en parallèle, il sera nécessaire d’utiliser la bibliothèque LiquidCrystal
-disponible dans l’IDE Arduino™ (dans la rubrique Gestionnaire de bibliothèque, rechercher 
+disponible dans l’IDE Arduino™ (dans la rubrique gestionnaire de bibliothèque, rechercher 
 « LiquidCrystal » et cliquer sur Installer)
 Les lignes de code à intégrer au programme seront les suivantes :
 ```cpp
@@ -152,7 +146,7 @@ void bouton()
 }
 
 ```
-## A propos
+## À propos :
 
 En cas de difficultés, il y a toujours possibilité de télécharger le programme d’origine à partir 
 des « ressources » sur le site [www.pierron.fr](https://www.pierron.fr)
