@@ -3,7 +3,7 @@
 CAPTEUR DE PRESSION DANS UN LIQUIDE [33508](https://www.pierron.fr/capteur-de-pression-dans-un-liquide.html)
 
 Cet appareil est particulièrement conçu pour mesurer et étudier la pression absolue P dans un liquide, en fonction de la hauteur h de liquide qui sépare le capteur de pression de la surface du liquide. On retrouvera ainsi le principe de l'hydrostatique :
-P↓A|- P↓B| = ρ.g.h.
+P<inf>A<inf> - P<inf>B<inf>| = ρ.g.h.
 
 ![E1-33508](/img/E1-33508.png)
 
