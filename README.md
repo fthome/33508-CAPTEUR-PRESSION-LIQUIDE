@@ -44,7 +44,7 @@ float pression = capteur.get_pressure();
 float temperature = capteur.get_temperature();
 ```
 
-Pour utiliser l’affi cheur en parallèle, il sera nécessaire d’utiliser la bibliothèque LiquidCrystal
+Pour utiliser l’afficheur en parallèle, il sera nécessaire d’utiliser la bibliothèque LiquidCrystal
 disponible dans l’IDE Arduino™ (dans la rubrique gestionnaire de bibliothèque, rechercher 
 « LiquidCrystal » et cliquer sur Installer)
 Les lignes de code à intégrer au programme seront les suivantes :
