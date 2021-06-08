@@ -1,4 +1,4 @@
-# 33508 CAPTEUR DE PRESSION DANS UN LIQUIDE
+# 33508 Capteur de pression dans un liquide
 
 CAPTEUR DE PRESSION DANS UN LIQUIDE [33508](https://www.pierron.fr/capteur-de-pression-dans-un-liquide.html)
 
