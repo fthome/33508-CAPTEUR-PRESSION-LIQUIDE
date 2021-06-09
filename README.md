@@ -23,7 +23,7 @@ Logiciel d'acquisition "Pianode":
 
 Logiciel d'acquisition : [PIANODE](https://github.com/pierron-asco-celda/InterfacePIANODE_USB)
 
-Ressource utilisation : [NOTICE](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2F33508.pdf)
+Ressource utilisation : [NOTICE-33508](https://www.pierron.fr/fileuploader/download/download/?d=0&file=custom%2Fupload%2F33508.pdf)
 
 # Schémas :
 ![E4-33508](/img/E4-33508.png)
