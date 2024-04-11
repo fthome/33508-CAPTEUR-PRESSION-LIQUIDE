@@ -6,7 +6,7 @@
 
 // {
 
-#include <Lps35hw.h>
+#include "Lps35hw.h"
 #include <LiquidCrystal.h>
 
 Lps35hw capteur =  Lps35hw(0x5C);
