@@ -12,11 +12,11 @@ Cet appareil "open source (software) Arduino™" est conçu pour mesurer et étu
 
 ## Caractéristiques techniques :
 
-- 1 Microcontrôleur programmable compatible avec l'interface "Arduino IDE"
-
-- 1 Écran LCD 8X1
+- 1 Microcontrôleur programmable compatible avec l'interface "Arduino IDE" et "mBlock"
 
 - 1 Capteur de pression et de température MS5837
+
+- 1 Écran LCD 8X1
 
 ## Ressources à télécharger
 
