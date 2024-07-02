@@ -6,19 +6,17 @@
 
 <div align='justify'>
 
-Cet appareil "open source Arduino™" est conçu pour mesurer et étudier la pression absolue P dans un liquide, en fonction de la hauteur h de liquide qui sépare le capteur de pression de la surface du liquide.
+Cet appareil "open source (software) Arduino™" est conçu pour mesurer et étudier la pression absolue P dans un liquide, en fonction de la hauteur h de liquide qui sépare le capteur de pression de la surface du liquide.
 
 </div>
 
 ## Caractéristiques techniques :
 
-- 
+- 1 Microcontroleur programable compatible avec l'interface "Arduino IDE"
 
-- 
+- 1 Écran LCD 8X1
 
-- 
-
-- 
+- 1 Capteur de pression et de température MS5837
 
 ## Ressources à télécharger
 
@@ -37,8 +35,6 @@ Cet appareil "open source Arduino™" est conçu pour mesurer et étudier la pre
 ## Programme de démonstration
 
 ```cpp
-
-
 
 ```
 
