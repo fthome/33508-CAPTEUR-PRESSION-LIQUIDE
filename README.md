@@ -12,7 +12,7 @@ Cet appareil "open source (software) Arduino™" est conçu pour mesurer et étu
 
 ## Caractéristiques techniques :
 
-- 1 Microcontroleur programable compatible avec l'interface "Arduino IDE"
+- 1 Microcontrôleur programmable compatible avec l'interface "Arduino IDE"
 
 - 1 Écran LCD 8X1
 
